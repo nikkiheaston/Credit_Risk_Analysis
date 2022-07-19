@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this analysis is to compare the results of six different machine learning models to determine the best one to use in examining credit card risk. Values for balanced accuracy, and precision and recall are highlighted below. I used Python supervised machine learning models - from scikit-learn and imbalanced-learn libraries - in this repo.
+The purpose of this analysis is to compare the results of six different machine learning models to determine the best one to use in examining credit risk, specifically high-risk applications. Values for balanced accuracy, and precision and recall are highlighted below. I used Python supervised machine learning models - from scikit-learn and imbalanced-learn libraries - in this repo.
 
 ## Results
 
@@ -19,22 +19,28 @@ The purpose of this analysis is to compare the results of six different machine 
 Below are screenshots taken from each model's classification report:
 
 Naive Random Oversampling
-![Naive Random Oversampling]()
+
+![Naive Random Oversampling](https://github.com/nikkiheaston/Credit_Risk_Analysis/blob/main/Resources/Naive%20Random%20Oversampling.PNG)
 
 SMOTE Oversampling
-![SMOTE Oversampling]()
+
+![SMOTE Oversampling](https://github.com/nikkiheaston/Credit_Risk_Analysis/blob/main/Resources/SMOTE%20Oversampling.PNG)
 
 Cluster Centroid Undersampling
-![Undersampling Cluster Centroids]()
+
+![Undersampling Cluster Centroids](https://github.com/nikkiheaston/Credit_Risk_Analysis/blob/main/Resources/Undersampling%20Cluster%20Centroids.PNG)
 
 Combination Sampling SMOTEENN
-![Combination Sampling SMOTEENN]()
+
+![Combination Sampling SMOTEENN](https://github.com/nikkiheaston/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN.PNG)
 
 Balanced Random Forest Classifier
-![Balanced Random Forest Classifier]()
+
+![Balanced Random Forest Classifier](https://github.com/nikkiheaston/Credit_Risk_Analysis/blob/main/Resources/Balanced%20Random%20Forest%20Classifier.PNG)
 
 Easy Ensemble AdaBoost Classifier
-![Easy Ensemble AdaBoost Classifier]()
+
+![Easy Ensemble AdaBoost Classifier](https://github.com/nikkiheaston/Credit_Risk_Analysis/blob/main/Resources/Easy%20Ensemble%20AdaBoost%20Classifier.PNG)
 
 The following is a list of precision and recall scores for each model: 
  - Naive Random Oversampling
